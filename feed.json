@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "The Answer",
+    "description": "子年的个人学习笔记、博客",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2022/03/12/http%E5%A4%B4%E9%83%A8%E5%AD%97%E6%AE%B5%E8%AF%A6%E8%A7%A3/",
+            "url": "http://example.com/2022/03/12/http%E5%A4%B4%E9%83%A8%E5%AD%97%E6%AE%B5%E8%AF%A6%E8%A7%A3/",
+            "title": "http头部字段详解",
+            "date_published": "2022-03-12T11:58:07.000Z",
+            "content_html": "<table>\n<thead>\n<tr>\n<th>header 字段</th>\n<th>解释</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>User-Agent</td>\n<td>告诉浏览，访问者是通过什么工具来请求的</td>\n</tr>\n<tr>\n<td>X-Forworded-For</td>\n<td>用来表示http请求端真实IP，被各大http代理，负载均衡等转发服务广泛使用</td>\n</tr>\n<tr>\n<td>X-Client-IP</td>\n<td>同上</td>\n</tr>\n<tr>\n<td>Accept-Luangage</td>\n<td>用来说明访问者希望采用的语言或语言组合，这样用户就可以根据自己的偏好的语言来定制不同的内容。</td>\n</tr>\n<tr>\n<td>cookie</td>\n<td>辨别用户状态及身份的</td>\n</tr>\n<tr>\n<td>Accept-Encodig</td>\n<td>浏览器发送给服务器，申明浏览器支持的编码类型</td>\n</tr>\n<tr>\n<td>Content-Type</td>\n<td>用于表明浏览器发送数据流的类型，服务器根据编码类型使用特定的解析方式，获取数据流中的数据。</td>\n</tr>\n<tr>\n<td>Referer</td>\n<td>当浏览器向web服务器发送请求的时候，一般会带上referer，告诉浏览器是从哪个页面过来的</td>\n</tr>\n</tbody></table>\n",
+            "tags": [
+                "web基础 计算机网络"
+            ]
+        },
+        {
+            "id": "http://example.com/2022/03/12/hello-world/",
+            "url": "http://example.com/2022/03/12/hello-world/",
+            "title": "Hello World",
+            "date_published": "2022-03-12T11:37:02.444Z",
+            "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check <a href=\"https://hexo.io/docs/\">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href=\"https://hexo.io/docs/troubleshooting.html\">troubleshooting</a> or you can ask me on <a href=\"https://github.com/hexojs/hexo/issues\">GitHub</a>.</p>\n<h2 id=\"Quick-Start\"><a href=\"#Quick-Start\" class=\"headerlink\" title=\"Quick Start\"></a>Quick Start</h2><h3 id=\"Create-a-new-post\"><a href=\"#Create-a-new-post\" class=\"headerlink\" title=\"Create a new post\"></a>Create a new post</h3><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo new <span class=\"string\">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>\n\n<p>More info: <a href=\"https://hexo.io/docs/writing.html\">Writing</a></p>\n<h3 id=\"Run-server\"><a href=\"#Run-server\" class=\"headerlink\" title=\"Run server\"></a>Run server</h3><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo server</span><br></pre></td></tr></table></figure>\n\n<p>More info: <a href=\"https://hexo.io/docs/server.html\">Server</a></p>\n<h3 id=\"Generate-static-files\"><a href=\"#Generate-static-files\" class=\"headerlink\" title=\"Generate static files\"></a>Generate static files</h3><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo generate</span><br></pre></td></tr></table></figure>\n\n<p>More info: <a href=\"https://hexo.io/docs/generating.html\">Generating</a></p>\n<h3 id=\"Deploy-to-remote-sites\"><a href=\"#Deploy-to-remote-sites\" class=\"headerlink\" title=\"Deploy to remote sites\"></a>Deploy to remote sites</h3><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo deploy</span><br></pre></td></tr></table></figure>\n\n<p>More info: <a href=\"https://hexo.io/docs/one-command-deployment.html\">Deployment</a></p>\n",
+            "tags": []
+        }
+    ]
+}

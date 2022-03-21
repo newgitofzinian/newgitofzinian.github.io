@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "The Answer • All posts by \"web基础 计算机网络\" tag",
+    "description": "子年的个人学习笔记、博客",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2022/03/12/http%E5%A4%B4%E9%83%A8%E5%AD%97%E6%AE%B5%E8%AF%A6%E8%A7%A3/",
+            "url": "http://example.com/2022/03/12/http%E5%A4%B4%E9%83%A8%E5%AD%97%E6%AE%B5%E8%AF%A6%E8%A7%A3/",
+            "title": "http头部字段详解",
+            "date_published": "2022-03-12T11:58:07.000Z",
+            "content_html": "<table>\n<thead>\n<tr>\n<th>header 字段</th>\n<th>解释</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>User-Agent</td>\n<td>告诉浏览，访问者是通过什么工具来请求的</td>\n</tr>\n<tr>\n<td>X-Forworded-For</td>\n<td>用来表示http请求端真实IP，被各大http代理，负载均衡等转发服务广泛使用</td>\n</tr>\n<tr>\n<td>X-Client-IP</td>\n<td>同上</td>\n</tr>\n<tr>\n<td>Accept-Luangage</td>\n<td>用来说明访问者希望采用的语言或语言组合，这样用户就可以根据自己的偏好的语言来定制不同的内容。</td>\n</tr>\n<tr>\n<td>cookie</td>\n<td>辨别用户状态及身份的</td>\n</tr>\n<tr>\n<td>Accept-Encodig</td>\n<td>浏览器发送给服务器，申明浏览器支持的编码类型</td>\n</tr>\n<tr>\n<td>Content-Type</td>\n<td>用于表明浏览器发送数据流的类型，服务器根据编码类型使用特定的解析方式，获取数据流中的数据。</td>\n</tr>\n<tr>\n<td>Referer</td>\n<td>当浏览器向web服务器发送请求的时候，一般会带上referer，告诉浏览器是从哪个页面过来的</td>\n</tr>\n</tbody></table>\n",
+            "tags": [
+                "web基础 计算机网络"
+            ]
+        }
+    ]
+}
